@@ -1,0 +1,179 @@
+@font-face{ ; font-family: kt; src:  url(minecraft.ttf)}
+
+
+body {
+        
+        font-family: kt;
+        
+}
+#body1 {
+        background-image: url(../fotos/body.gif) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover ;
+
+
+}
+
+.contain {  font-size: 100px; 
+            height: 100%;
+          
+          
+           
+}
+
+div input { font-size: 80px;
+        position: relative;
+        opacity: 0.9;
+
+
+}
+.center { padding-top: 100px;
+
+
+}
+#btnSi {left: 25%;
+        width: 200px; 
+        z-index: 1;
+}
+
+
+
+#btnNo {left: 50%; 
+        width: 200px;
+        padding-top: 80px;
+        z-index: 1;
+}
+
+
+div img {
+        width: 400px;
+        left: 200px;
+       
+
+
+        
+}
+.img2 {
+         position: absolute;
+         bottom: 200px; 
+         left: 590px;
+         opacity: 0.5;
+
+}
+
+
+
+
+                     /*PARTE DOOOOOOOOOOOOOOOOOOOOOOOOOS*/
+
+
+
+
+
+
+
+
+#body2 {
+        overflow-x: hidden;
+
+}
+.contain1 {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-size: 60px;
+
+       
+}
+.videoo  { 
+        position: absolute; 
+        top: -102px;
+        left: 0;
+        overflow: hidden;
+       
+}
+video {
+      
+        width: 100%;
+
+     
+
+
+
+}
+.sbsi { position: absolute;
+        z-index: 2;
+        outline: auto;
+        left: 390px;
+
+}
+
+
+
+
+
+@media (max-width:768px) and (min-width: 350px) {
+        
+
+
+div center {  
+        font-size: 60px; 
+}
+div input {
+                
+        width: 20px;
+        height: ;
+          
+}
+
+#btnSi {
+        width: 110px;
+        left: 10%;
+        
+}
+
+#btnNo {
+        width: 110px;
+        left: 20%;
+        
+}
+
+.img2 { 
+         position: absolute;
+         bottom: 30px; 
+         left: 100px;
+         opacity: 0.5;
+         width: 200px;
+
+}      
+    
+
+             /* PARTEEEEEEEEEEE DOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS*/
+
+
+
+.contain1 {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+
+       
+}
+.videoo  { 
+        position: absolute; 
+        top: 200px;
+        left: 0;
+        overflow: hidden;
+       
+}
+
+.sbsi { position: absolute;
+        z-index: 2;
+        outline: auto;
+        left: 60px;
+        top: 150px;    
+}
+
